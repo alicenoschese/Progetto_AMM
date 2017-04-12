@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Profilo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Alice Noschese">
+        <meta name="keywords" content="nerd nerbook social network ">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    </head>
+    <body>
+        <header>
+            <div id="title">
+                NERDBOOK
+            </div>
+            <nav>
+                <ul>
+                    <li><a href='descrizione.html'>Presentazione</a></li>
+                    <li><a href='login.html'>Login</a></li>
+                </ul>
+            </nav>
+        </header>
+      
+        <div id="divBody">
+             <div id="sidebar">
+                <h3>Persone</h3>
+                <ul>
+                    <li><a>Mary Posa</a></li>
+                    <li><a>Ken</a></li>
+                    <li><a>Dottor Zoidberg</a></li>
+                </ul>
+                <h3>Gruppi</h3>
+                <ul>
+                    <li><a>Informatici</a></li>
+                    <li><a>Manga</a></li>
+                    <li><a>Anonymous</a></li>
+                </ul>
+                
+            </div>
+        <div id="form">
+            <form action="login.html" method="post">
+                <label for="nome"> Nome:</label>
+                <input type="text" name="Nome"
+                       id="nome" value="nome">
+                <br />
+                
+                <label for="cognome"> Cognome:</label>
+                <input type="text" name="cognome"
+                       id="cognome" value="cognome">
+                <br />
+                
+                <label for="url"> Url Foto Profilo:</label>
+                <input type="url" name="url"
+                       id="url" >
+                <br />
+                
+                <label for="frase"> Frase di presentazione: </label>
+                <textarea rows="4" cols="15" 
+                          name="frase" id="frase"> Inserisci frase di presentazione
+                </textarea>
+                <br />
+                
+                <label for="date"> Data di nascita</label>
+                <input type="date" name="data"
+                       id="date" >
+                <br />
+                
+                <label for="password"> Password:</label>
+                    <input type="password" name="Password"
+                           id="password" value="password">
+                <br />
+                
+                <label for="conferma"> Conferma Password:</label>
+                    <input type="password" name="Conferma"
+                           id="conferma" value="password">
+                <br />
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        
+        </div>
+    </body>
+</html>

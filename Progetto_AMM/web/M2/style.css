@@ -1,0 +1,258 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-mar-2017, 9.59.32
+    Author     : nosch_000
+*/
+
+body{
+    background-color: aliceblue;
+    color: darkslategray;
+    font-family: "Open Sans", Arial, sans-serif; 
+}
+#divBody{
+    margin-bottom:5px;
+    margin-top:80px;
+    padding-left:5px;
+
+}
+h1{ 
+    margin-top: 0px;
+    color:darkcyan;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align:center;
+}
+
+h3{
+    margin-top:0px;
+    color: cadetblue;
+    font-size: 20px;
+    
+}
+
+a:visited, a:link{
+    color: darkslategray;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: tomato;
+}
+#segnalibri{
+    background-color: azure;
+    height:auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    width:350px;
+}
+ul{
+    list-style-type:none ;
+    padding:0;
+}
+ul li{
+    padding:8px 16px;
+}
+
+#form {
+    background-color: azure;
+   box-shadow: 0 0 10px rgba(0,0,0,.2);
+    width: 350px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#form input, textarea{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: darkslategray;
+    background-color:#ccffcc ;
+    color: teal;
+}
+#form input:focus, textarea:focus{
+    color: tomato;
+}
+
+#form label{
+    font: 20px/25px "Open Sans", Arial, sans-serif;
+}
+
+.post{
+    background-color:azure;
+    
+}
+
+.post .profilePic, .post .dati{
+    float: left;
+}
+.profilePic img{
+    width: 60px;
+    height: 60px;
+    border-radius:50% ;
+}
+.post .dati{
+    padding-left: 10px;
+}
+.dati p{
+    padding-top: 20px;
+}
+.dati b{
+    float:left;
+}
+header{
+    background-color: mediumaquamarine;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    padding: 10px 16px;
+}
+
+nav ul{
+   list-style-type: none;
+   display: inline-block;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav{
+    width:auto;
+    float:left;
+}
+
+
+#title{
+    font: 35px/50px "Open Sans", Arial, sans-serif;
+    color: darkslategray;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+}
+
+#sidebar{
+    border: 2px solid mediumaquamarine;
+    width:90%;
+    border-radius: 12px; 
+    margin:auto;
+}
+#sidebar li {
+    width: 80%;
+    background-color: azure ;
+    padding: 8px 16px;
+    text-align:center;
+    font-weight: bold;
+    border-bottom: 2px solid mediumaquamarine;
+    margin:auto;
+    
+}
+
+#sidebar ul{
+    padding-left: 25px;
+    padding-right:25px;
+}
+ #posts{
+    height:auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:350px;
+}
+
+.post{
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    float:left;
+}
+#sidebar{
+    padding-left: 5px;
+    padding-top:5px;
+} 
+@media only screen and (min-width: 1024px){
+   
+ #posts{
+    height:auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:350px;
+}
+
+.post{
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    float:left;
+}
+#sidebar{
+    float: left;
+    width: 20%;
+    padding-left: 5px;
+} 
+
+}
+
+@media only screen and (max-width: 480px)
+{
+    .post{
+    margin-bottom: 5px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    float:left;
+}
+
+#sidebar ul{
+    width: 90%;
+    height:auto;
+    padding-left: 5px;
+} 
+
+   
+ #posts{
+    height:auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+}
+
+#divbody{
+    margin-top:30%;
+}
+
+
+}
