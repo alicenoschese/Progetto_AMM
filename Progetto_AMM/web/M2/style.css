@@ -168,6 +168,7 @@ nav{
     font-weight: bold;
     border-bottom: 2px solid mediumaquamarine;
     margin:auto;
+    overflow: hidden;
     
 }
 
@@ -176,6 +177,7 @@ nav{
     padding-right:25px;
 }
  #posts{
+    
     height:auto;
     margin-top: 20px;
     margin-left: auto;
@@ -184,12 +186,7 @@ nav{
 }
 
 .post{
-    margin-bottom: 5px;
-    padding: 10px;
-    width: 350px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    
     float:left;
 }
 #sidebar{
